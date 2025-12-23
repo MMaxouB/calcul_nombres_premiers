@@ -22,7 +22,7 @@
 - Exécuter la version simple :
 
 ```bash
-python premiers.py
+python "premiers.py"
 ```
 
 - Exécuter la version multiprocessing (simple) :
@@ -52,4 +52,5 @@ Chaque fichier contient une liste de nombres premiers (un par ligne) suivie d'un
 - Le crible segmenté est généralement la meilleure option pour large `n` car il réduit les tests par division et permet un marquage efficace par blocs. Toutefois le crible nécessite d'allouer un tableau de booléens de taille ~`MAX_N`, donc surveillez la mémoire disponible.
 
 **Modifier `n`**
+
 - Pour tester rapidement, changez `n` à une valeur plus petite (par ex. `1000` ou `10000`) dans le script choisi avant de lancer.
