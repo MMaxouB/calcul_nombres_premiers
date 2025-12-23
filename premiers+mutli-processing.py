@@ -19,7 +19,7 @@ from multiprocessing import Pool, cpu_count
 time_start = time.time()
 
 # Fichier de sortie
-OUTPUT_FILE = "premiers_complexe.txt"
+OUTPUT_FILE = "premiers_multiprocessing.txt"
 
 # Nombre de nombres premiers que l'on veut AU FINAL
 n = 1_000_000  # nombre de premiers à générer en tout 
@@ -142,3 +142,4 @@ if __name__ == "__main__":
 
         time_end = time.time()
         f.write(f"\nTemps d'execution : {time_end - time_start:.2f} secondes")
+
